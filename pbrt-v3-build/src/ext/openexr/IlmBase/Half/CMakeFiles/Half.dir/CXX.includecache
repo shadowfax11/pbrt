@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/f/pbrt/pbrt-v3/src/ext/openexr/IlmBase/Half/half.cpp
+assert.h
+-
+half.h
+/mnt/f/pbrt/pbrt-v3/src/ext/openexr/IlmBase/Half/half.h
+toFloat.h
+/mnt/f/pbrt/pbrt-v3/src/ext/openexr/IlmBase/Half/toFloat.h
+eLut.h
+/mnt/f/pbrt/pbrt-v3/src/ext/openexr/IlmBase/Half/eLut.h
+
+/mnt/f/pbrt/pbrt-v3/src/ext/openexr/IlmBase/Half/half.h
+halfExport.h
+/mnt/f/pbrt/pbrt-v3/src/ext/openexr/IlmBase/Half/halfExport.h
+iostream
+-
+
+/mnt/f/pbrt/pbrt-v3/src/ext/openexr/IlmBase/Half/halfExport.h
+
+src/ext/openexr/IlmBase/Half/eLut.h
+
+src/ext/openexr/IlmBase/Half/toFloat.h
+

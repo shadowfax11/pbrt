@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/f/research/pbrt/pbrt-v3-dvs/src/ext/openexr/IlmBase/Half/toFloat.cpp
+iostream
+-
+iomanip
+-
+

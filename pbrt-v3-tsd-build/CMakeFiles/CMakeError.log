@@ -1,0 +1,397 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_614e5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_614e5.dir/build.make CMakeFiles/cmTC_614e5.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_614e5.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_614e5.dir/CheckSymbolExists.c.o   -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_614e5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_614e5.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_614e5.dir/CheckSymbolExists.c.o  -o cmTC_614e5 
+CMakeFiles/cmTC_614e5.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_614e5.dir/build.make:97: recipe for target 'cmTC_614e5' failed
+make[1]: *** [cmTC_614e5] Error 1
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_614e5/fast' failed
+make: *** [cmTC_614e5/fast] Error 2
+
+File /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_96ba1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_96ba1.dir/build.make CMakeFiles/cmTC_96ba1.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_96ba1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_96ba1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_96ba1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96ba1.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_96ba1.dir/CheckFunctionExists.c.o  -o cmTC_96ba1 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_96ba1.dir/build.make:97: recipe for target 'cmTC_96ba1' failed
+make[1]: *** [cmTC_96ba1] Error 1
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_96ba1/fast' failed
+make: *** [cmTC_96ba1/fast] Error 2
+
+
+Performing C++ SOURCE FILE Test HAVE_ITIMER failed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b6977/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b6977.dir/build.make CMakeFiles/cmTC_b6977.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b6977.dir/src.cxx.o
+/usr/bin/c++    -std=gnu++11 -Wno-conversion-null -DHAVE_ITIMER   -o CMakeFiles/cmTC_b6977.dir/src.cxx.o -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b6977
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6977.dir/link.txt --verbose=1
+/usr/bin/c++   -std=gnu++11 -Wno-conversion-null -DHAVE_ITIMER    -rdynamic CMakeFiles/cmTC_b6977.dir/src.cxx.o  -o cmTC_b6977 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+#include <signal.h>
+#include <string.h>
+#include <sys/time.h>
+void ReportProfileSample(int, siginfo_t *, void *) { }
+int main() {
+    struct sigaction sa;
+    memset(&sa, 0, sizeof(sa));
+    sa.sa_sigaction = ReportProfileSample;
+    sa.sa_flags = SA_RESTART | SA_SIGINFO;
+    sigemptyset(&sa.sa_mask);
+    sigaction(SIGPROF, &sa, NULL);
+    static struct itimerval timer;
+    return setitimer(ITIMER_PROF, &timer, NULL) == 0 ? 0 : 1;
+}
+
+Performing C++ SOURCE FILE Test HAVE_DECLSPEC_NOINLINE failed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4e794/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4e794.dir/build.make CMakeFiles/cmTC_4e794.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4e794.dir/src.cxx.o
+/usr/bin/c++    -std=gnu++11 -Wno-conversion-null -DHAVE_DECLSPEC_NOINLINE   -o CMakeFiles/cmTC_4e794.dir/src.cxx.o -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.cxx
+/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.cxx:1:11: error: expected constructor, destructor, or type conversion before ‘(’ token
+ __declspec(noinline) void foo() { }
+           ^
+CMakeFiles/cmTC_4e794.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_4e794.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_4e794.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4e794/fast' failed
+make: *** [cmTC_4e794/fast] Error 2
+
+Source file was:
+__declspec(noinline) void foo() { }
+int main() { }
+Performing C++ SOURCE FILE Test HAVE__ALIGNED_MALLOC failed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_70784/fast"
+/usr/bin/make -f CMakeFiles/cmTC_70784.dir/build.make CMakeFiles/cmTC_70784.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_70784.dir/src.cxx.o
+/usr/bin/c++    -std=gnu++11 -Wno-conversion-null -DHAVE__ALIGNED_MALLOC   -o CMakeFiles/cmTC_70784.dir/src.cxx.o -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.cxx
+/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.cxx:3:27: error: ‘_aligned_malloc’ was not declared in this scope
+ int main() { void * ptr = _aligned_malloc(1024, 32); }
+                           ^~~~~~~~~~~~~~~
+/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.cxx:3:27: note: suggested alternative: ‘__builtin_malloc’
+ int main() { void * ptr = _aligned_malloc(1024, 32); }
+                           ^~~~~~~~~~~~~~~
+                           __builtin_malloc
+CMakeFiles/cmTC_70784.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_70784.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_70784.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_70784/fast' failed
+make: *** [cmTC_70784/fast] Error 2
+
+Source file was:
+
+#include <malloc.h>
+int main() { void * ptr = _aligned_malloc(1024, 32); }
+
+Performing C++ SOURCE FILE Test HAVE_DECLSPEC_THREAD failed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f59f6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f59f6.dir/build.make CMakeFiles/cmTC_f59f6.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f59f6.dir/src.cxx.o
+/usr/bin/c++    -std=gnu++11 -Wno-conversion-null -DHAVE_DECLSPEC_THREAD   -o CMakeFiles/cmTC_f59f6.dir/src.cxx.o -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.cxx
+/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.cxx:2:11: error: expected constructor, destructor, or type conversion before ‘(’ token
+ __declspec(thread) int x; int main() { }
+           ^
+CMakeFiles/cmTC_f59f6.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_f59f6.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_f59f6.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f59f6/fast' failed
+make: *** [cmTC_f59f6/fast] Error 2
+
+Source file was:
+
+__declspec(thread) int x; int main() { }
+
+Determining if the include file libunwind.h exists failed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1ab66/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1ab66.dir/build.make CMakeFiles/cmTC_1ab66.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1ab66.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1ab66.dir/CheckIncludeFile.c.o   -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: libunwind.h: No such file or directory
+ #include <libunwind.h>
+          ^~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_1ab66.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_1ab66.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_1ab66.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1ab66/fast' failed
+make: *** [cmTC_1ab66/fast] Error 2
+
+
+Determining size of unsigned __int16 failed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_928b6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_928b6.dir/build.make CMakeFiles/cmTC_928b6.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_928b6.dir/HAVE___UINT16.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_928b6.dir/HAVE___UINT16.c.o   -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CheckTypeSize/HAVE___UINT16.c
+/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:31: error: expected ‘)’ before ‘__int16’
+ #define SIZE (sizeof(unsigned __int16))
+                               ^
+/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:25:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:31: error: expected ‘)’ before ‘__int16’
+ #define SIZE (sizeof(unsigned __int16))
+                               ^
+/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:26:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 1000)%10)),
+            ^~~~
+/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:31: error: expected ‘)’ before ‘__int16’
+ #define SIZE (sizeof(unsigned __int16))
+                               ^
+/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:27:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 100)%10)),
+            ^~~~
+/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:31: error: expected ‘)’ before ‘__int16’
+ #define SIZE (sizeof(unsigned __int16))
+                               ^
+/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:28:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10)%10)),
+            ^~~~
+/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:31: error: expected ‘)’ before ‘__int16’
+ #define SIZE (sizeof(unsigned __int16))
+                               ^
+/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:29:12: note: in expansion of macro ‘SIZE’
+   ('0' +  (SIZE    % 10)),
+            ^~~~
+CMakeFiles/cmTC_928b6.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_928b6.dir/HAVE___UINT16.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_928b6.dir/HAVE___UINT16.c.o] Error 1
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_928b6/fast' failed
+make: *** [cmTC_928b6/fast] Error 2
+
+/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(unsigned __int16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function dladdr exists failed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c65ff/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c65ff.dir/build.make CMakeFiles/cmTC_c65ff.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c65ff.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dladdr   -o CMakeFiles/cmTC_c65ff.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c65ff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c65ff.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=dladdr    -rdynamic CMakeFiles/cmTC_c65ff.dir/CheckFunctionExists.c.o  -o cmTC_c65ff 
+CMakeFiles/cmTC_c65ff.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `dladdr'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_c65ff.dir/build.make:97: recipe for target 'cmTC_c65ff' failed
+make[1]: *** [cmTC_c65ff] Error 1
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c65ff/fast' failed
+make: *** [cmTC_c65ff/fast] Error 2
+
+
+Determining if the function get_static_proc_name exists in the unwind failed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_53fe2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_53fe2.dir/build.make CMakeFiles/cmTC_53fe2.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_53fe2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=get_static_proc_name   -o CMakeFiles/cmTC_53fe2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_53fe2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53fe2.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=get_static_proc_name    -rdynamic CMakeFiles/cmTC_53fe2.dir/CheckFunctionExists.c.o  -o cmTC_53fe2 -lunwind 
+/usr/bin/ld: cannot find -lunwind
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_53fe2.dir/build.make:97: recipe for target 'cmTC_53fe2' failed
+make[1]: *** [cmTC_53fe2] Error 1
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_53fe2/fast' failed
+make: *** [cmTC_53fe2/fast] Error 2
+
+
+Performing C SOURCE FILE Test HAVE_RWLOCK failed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3cd5c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3cd5c.dir/build.make CMakeFiles/cmTC_3cd5c.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3cd5c.dir/src.c.o
+/usr/bin/cc   -DHAVE_RWLOCK   -o CMakeFiles/cmTC_3cd5c.dir/src.c.o   -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3cd5c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3cd5c.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_RWLOCK    -rdynamic CMakeFiles/cmTC_3cd5c.dir/src.c.o  -o cmTC_3cd5c 
+CMakeFiles/cmTC_3cd5c.dir/src.c.o: In function `main':
+src.c:(.text+0x24): undefined reference to `pthread_rwlock_init'
+src.c:(.text+0x30): undefined reference to `pthread_rwlock_rdlock'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_3cd5c.dir/build.make:97: recipe for target 'cmTC_3cd5c' failed
+make[1]: *** [cmTC_3cd5c] Error 1
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3cd5c/fast' failed
+make: *** [cmTC_3cd5c/fast] Error 2
+
+Source file was:
+
+#define _XOPEN_SOURCE 500
+#include <pthread.h>
+int main(void)
+{
+  pthread_rwlock_t l;
+  pthread_rwlock_init(&l, NULL);
+  pthread_rwlock_rdlock(&l);
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE___DECLSPEC failed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d8f4d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d8f4d.dir/build.make CMakeFiles/cmTC_d8f4d.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d8f4d.dir/src.c.o
+/usr/bin/cc   -DHAVE___DECLSPEC   -o CMakeFiles/cmTC_d8f4d.dir/src.c.o   -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.c
+/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ __declspec(selectany) int a;
+ ^~~~~~~~~~
+/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.c: In function ‘__declspec’:
+/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.c:3:16: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ int main(void) { return 0; }
+                ^
+/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.c:2:1: warning: type of ‘selectany’ defaults to ‘int’ [-Wimplicit-int]
+ __declspec(selectany) int a;
+ ^~~~~~~~~~
+/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.c:2:27: error: declaration for parameter ‘a’ but no such parameter
+ __declspec(selectany) int a;
+                           ^
+/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.c:3:16: error: expected ‘{’ at end of input
+ int main(void) { return 0; }
+                ^
+CMakeFiles/cmTC_d8f4d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d8f4d.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_d8f4d.dir/src.c.o] Error 1
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d8f4d/fast' failed
+make: *** [cmTC_d8f4d/fast] Error 2
+
+Source file was:
+
+__declspec(selectany) int a;
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test STL_NO_NAMESPACE failed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_af7f4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_af7f4.dir/build.make CMakeFiles/cmTC_af7f4.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_af7f4.dir/src.cxx.o
+/usr/bin/c++    -std=gnu++11 -Wno-conversion-null -DSTL_NO_NAMESPACE   -o CMakeFiles/cmTC_af7f4.dir/src.cxx.o -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.cxx
+/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.cxx:3:1: error: ‘vector’ does not name a type
+ vector<int> t; int main() { }
+ ^~~~~~
+CMakeFiles/cmTC_af7f4.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_af7f4.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_af7f4.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_af7f4/fast' failed
+make: *** [cmTC_af7f4/fast] Error 2
+
+Source file was:
+
+#include <vector>
+vector<int> t; int main() { }
+

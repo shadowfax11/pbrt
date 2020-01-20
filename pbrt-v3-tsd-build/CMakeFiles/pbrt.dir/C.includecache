@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/f/research/pbrt/pbrt-v3-tsd/src/ext/ArHosekSkyModel.c
+ArHosekSkyModel.h
+/mnt/f/research/pbrt/pbrt-v3-tsd/src/ext/ArHosekSkyModel.h
+ArHosekSkyModelData_Spectral.h
+/mnt/f/research/pbrt/pbrt-v3-tsd/src/ext/ArHosekSkyModelData_Spectral.h
+ArHosekSkyModelData_CIEXYZ.h
+/mnt/f/research/pbrt/pbrt-v3-tsd/src/ext/ArHosekSkyModelData_CIEXYZ.h
+ArHosekSkyModelData_RGB.h
+/mnt/f/research/pbrt/pbrt-v3-tsd/src/ext/ArHosekSkyModelData_RGB.h
+assert.h
+-
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+
+/mnt/f/research/pbrt/pbrt-v3-tsd/src/ext/ArHosekSkyModel.h
+
+/mnt/f/research/pbrt/pbrt-v3-tsd/src/ext/ArHosekSkyModelData_CIEXYZ.h
+
+/mnt/f/research/pbrt/pbrt-v3-tsd/src/ext/ArHosekSkyModelData_RGB.h
+
+/mnt/f/research/pbrt/pbrt-v3-tsd/src/ext/ArHosekSkyModelData_Spectral.h
+

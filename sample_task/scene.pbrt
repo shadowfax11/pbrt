@@ -1,0 +1,75 @@
+
+# 
+# The following lines define the size of the output image and the name of
+# the file containing the result of rendering.
+# 
+Film "image" "string filename" "scene.exr"
+	"integer xresolution" [256] "integer yresolution" [256]
+
+# 
+# Sampling specification: Specify number of sample rays per pixel.
+# Increasing the number of samples per pixel will increase image quality
+# at the cost of increased rendering time. Feel free to crank this value
+# up in your final images.
+#
+Sampler "sobol" "integer pixelsamples" 32
+
+#
+# Integrator specification: Specify which integrator to use for rendering.
+# Increasing maxdepth increases the number of light bounces computed, and will 
+# drastically increase the noise of the final image. To decrease noise, 
+# increase the pixelsamples of the sampler above
+#
+Integrator "sppm" "integer maxdepth" 8 "integer iterations" 512 "float radius" 0.01
+
+#
+# Camera configuration: Specify camera location, and its looking direction
+#
+LookAt	+3.0 +3.0 +1.5	# camera position
+	+0.0 +0.0 +0.0	# position to look at  
+	+0.0 +0.0 +1.0	# up vector
+Camera "perspective" "float fov" 45
+
+WorldBegin
+
+#
+# Light source configuration: Define all the light sources present in the scene.
+#
+LightSource "point" "color I" [100 0 0] "point from" [+3.0 +3.0 +1.5]
+LightSource "point" "color I" [0 100 0] "point from" [+3.0 +3.0 +1.5]
+
+#
+# Scene geometry configuration: Define scene geometry and material properties
+#
+AttributeBegin
+  Material "glass" "color Kr" [1 1 1] "color Kt" [1 0.0 1] "float uroughness" 0.1 "float vroughness" 0.1
+  Shape "sphere" "float radius" 1
+AttributeEnd
+
+AttributeBegin
+  Texture "checks" "spectrum" "checkerboard"
+          "float uscale" [8] "float vscale" [8]
+          "rgb tex1" [.1 .1 .1] "rgb tex2" [.8 .8 .8]
+  Material "matte" "texture Kd" "checks"
+  Translate 0 0 -1
+  Shape "trianglemesh"
+      "integer indices" [0 1 2 0 2 3]
+      "point P" [ -20 -20 0   20 -20 0   20 20 0   -20 20 0 ]
+      "float st" [ 0 0   1 0    1 1   0 1 ]
+AttributeEnd
+
+AttributeBegin
+Material "mirror" "color Kr" [0.6 1.0 1.0]
+Translate 0 0 0
+Shape "trianglemesh" "integer indices" [0 1 2 0 2 3]
+	"point P" [-10 -2 -1 10 -2 -1 10 -2 5 -10 -2 5]
+AttributeEnd
+
+AttributeBegin
+Material "matte" "color Kd" [1.0 0.6 1.0]
+Translate 0 0 0
+Shape "trianglemesh" "integer indices" [0 1 2 0 2 3]
+	"point P" [-2 -10 -1 -2 10 -1 -2 10 5 -2 -10 5]
+AttributeEnd
+
+WorldEnd

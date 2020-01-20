@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/f/research/pbrt/pbrt-v3-transient-sppm/src/ext/openexr/IlmBase/Half/half.h
+halfExport.h
+/mnt/f/research/pbrt/pbrt-v3-transient-sppm/src/ext/openexr/IlmBase/Half/halfExport.h
+iostream
+-
+
+/mnt/f/research/pbrt/pbrt-v3-transient-sppm/src/ext/openexr/IlmBase/Half/halfExport.h
+
+/mnt/f/research/pbrt/pbrt-v3-transient-sppm/src/ext/openexr/OpenEXR/IlmImf/b44ExpLogTable.cpp
+half.h
+-
+math.h
+-
+iostream
+-
+iomanip
+-
+

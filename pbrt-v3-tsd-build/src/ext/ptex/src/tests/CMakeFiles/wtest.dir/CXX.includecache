@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/f/research/pbrt/pbrt-v3-tsd/src/ext/ptex/src/ptex/PtexHalf.h
+PtexInt.h
+/mnt/f/research/pbrt/pbrt-v3-tsd/src/ext/ptex/src/ptex/PtexInt.h
+PtexVersion.h
+/mnt/f/research/pbrt/pbrt-v3-tsd/src/ext/ptex/src/ptex/PtexVersion.h
+
+/mnt/f/research/pbrt/pbrt-v3-tsd/src/ext/ptex/src/ptex/PtexInt.h
+stdint.h
+-
+stdint.h
+-
+
+/mnt/f/research/pbrt/pbrt-v3-tsd/src/ext/ptex/src/ptex/PtexVersion.h
+
+/mnt/f/research/pbrt/pbrt-v3-tsd/src/ext/ptex/src/ptex/Ptexture.h
+PtexInt.h
+/mnt/f/research/pbrt/pbrt-v3-tsd/src/ext/ptex/src/ptex/PtexInt.h
+ostream
+-
+PtexVersion.h
+/mnt/f/research/pbrt/pbrt-v3-tsd/src/ext/ptex/src/ptex/PtexVersion.h
+
+/mnt/f/research/pbrt/pbrt-v3-tsd/src/ext/ptex/src/tests/wtest.cpp
+iostream
+-
+stdlib.h
+-
+algorithm
+-
+Ptexture.h
+/mnt/f/research/pbrt/pbrt-v3-tsd/src/ext/ptex/src/tests/Ptexture.h
+PtexHalf.h
+/mnt/f/research/pbrt/pbrt-v3-tsd/src/ext/ptex/src/tests/PtexHalf.h
+string.h
+-
+

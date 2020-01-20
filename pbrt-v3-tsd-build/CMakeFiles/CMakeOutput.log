@@ -1,0 +1,1700 @@
+The system is: Linux - 4.4.0-17134-Microsoft - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/3.10.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_59c81/fast"
+/usr/bin/make -f CMakeFiles/cmTC_59c81.dir/build.make CMakeFiles/cmTC_59c81.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_59c81.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_59c81.dir/testCCompiler.c.o   -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_59c81
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59c81.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_59c81.dir/testCCompiler.c.o  -o cmTC_59c81 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_baeed/fast"
+/usr/bin/make -f CMakeFiles/cmTC_baeed.dir/build.make CMakeFiles/cmTC_baeed.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_baeed.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_baeed.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_baeed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_baeed.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_baeed.dir/CMakeCCompilerABI.c.o  -o cmTC_baeed 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.4.0-1ubuntu1~18.04.1' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_baeed' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTFW79f.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_baeed /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_baeed.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_baeed' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_baeed/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_baeed.dir/build.make CMakeFiles/cmTC_baeed.dir/build]
+  ignore line: [make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_baeed.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_baeed.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_baeed]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_baeed.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_baeed.dir/CMakeCCompilerABI.c.o  -o cmTC_baeed ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.4.0-1ubuntu1~18.04.1' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_baeed' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTFW79f.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_baeed /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_baeed.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccTFW79f.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_baeed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_baeed.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_01f37/fast"
+/usr/bin/make -f CMakeFiles/cmTC_01f37.dir/build.make CMakeFiles/cmTC_01f37.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_01f37.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_01f37.dir/feature_tests.c.o   -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_01f37
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01f37.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_01f37.dir/feature_tests.c.o  -o cmTC_01f37 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a873f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a873f.dir/build.make CMakeFiles/cmTC_a873f.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a873f.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_a873f.dir/feature_tests.c.o   -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_a873f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a873f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a873f.dir/feature_tests.c.o  -o cmTC_a873f 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_23642/fast"
+/usr/bin/make -f CMakeFiles/cmTC_23642.dir/build.make CMakeFiles/cmTC_23642.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_23642.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_23642.dir/feature_tests.c.o   -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_23642
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23642.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_23642.dir/feature_tests.c.o  -o cmTC_23642 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a427a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a427a.dir/build.make CMakeFiles/cmTC_a427a.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a427a.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_a427a.dir/testCXXCompiler.cxx.o -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_a427a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a427a.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_a427a.dir/testCXXCompiler.cxx.o  -o cmTC_a427a 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_121d0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_121d0.dir/build.make CMakeFiles/cmTC_121d0.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_121d0.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_121d0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_121d0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_121d0.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_121d0.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_121d0 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.4.0-1ubuntu1~18.04.1' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_121d0' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0RVMNQ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_121d0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_121d0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_121d0' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_121d0/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_121d0.dir/build.make CMakeFiles/cmTC_121d0.dir/build]
+  ignore line: [make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_121d0.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_121d0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_121d0]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_121d0.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_121d0.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_121d0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.4.0-1ubuntu1~18.04.1' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_121d0' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0RVMNQ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_121d0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_121d0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc0RVMNQ.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_121d0] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_121d0.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_46ee4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_46ee4.dir/build.make CMakeFiles/cmTC_46ee4.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_46ee4.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_46ee4.dir/feature_tests.cxx.o -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_46ee4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46ee4.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_46ee4.dir/feature_tests.cxx.o  -o cmTC_46ee4 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ea890/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ea890.dir/build.make CMakeFiles/cmTC_ea890.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ea890.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_ea890.dir/feature_tests.cxx.o -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ea890
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea890.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_ea890.dir/feature_tests.cxx.o  -o cmTC_ea890 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7206f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7206f.dir/build.make CMakeFiles/cmTC_7206f.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7206f.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_7206f.dir/feature_tests.cxx.o -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_7206f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7206f.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_7206f.dir/feature_tests.cxx.o  -o cmTC_7206f 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3c9bc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3c9bc.dir/build.make CMakeFiles/cmTC_3c9bc.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3c9bc.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_3c9bc.dir/feature_tests.cxx.o -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_3c9bc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c9bc.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_3c9bc.dir/feature_tests.cxx.o  -o cmTC_3c9bc 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_90927/fast"
+/usr/bin/make -f CMakeFiles/cmTC_90927.dir/build.make CMakeFiles/cmTC_90927.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_90927.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_90927.dir/CheckIncludeFile.c.o   -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_90927
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90927.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_90927.dir/CheckIncludeFile.c.o  -o cmTC_90927 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dbc1f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dbc1f.dir/build.make CMakeFiles/cmTC_dbc1f.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dbc1f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_dbc1f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dbc1f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dbc1f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_dbc1f.dir/CheckFunctionExists.c.o  -o cmTC_dbc1f -lpthread 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files alloca.h exist passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_10e79/fast"
+/usr/bin/make -f CMakeFiles/cmTC_10e79.dir/build.make CMakeFiles/cmTC_10e79.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_10e79.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_10e79.dir/CheckIncludeFiles.c.o   -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_10e79
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10e79.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_10e79.dir/CheckIncludeFiles.c.o  -o cmTC_10e79 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Determining if files memory.h exist passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d0856/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d0856.dir/build.make CMakeFiles/cmTC_d0856.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d0856.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d0856.dir/CheckIncludeFiles.c.o   -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_d0856
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0856.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d0856.dir/CheckIncludeFiles.c.o  -o cmTC_d0856 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test HAVE_HEX_FP_CONSTANTS succeeded with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_70b3f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_70b3f.dir/build.make CMakeFiles/cmTC_70b3f.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_70b3f.dir/src.cxx.o
+/usr/bin/c++    -std=gnu++11 -Wno-conversion-null -DHAVE_HEX_FP_CONSTANTS   -o CMakeFiles/cmTC_70b3f.dir/src.cxx.o -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_70b3f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70b3f.dir/link.txt --verbose=1
+/usr/bin/c++   -std=gnu++11 -Wno-conversion-null -DHAVE_HEX_FP_CONSTANTS    -rdynamic CMakeFiles/cmTC_70b3f.dir/src.cxx.o  -o cmTC_70b3f 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { float x = 0x1p-32f; }
+Performing C++ SOURCE FILE Test HAVE_BINARY_CONSTANTS succeeded with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_34c77/fast"
+/usr/bin/make -f CMakeFiles/cmTC_34c77.dir/build.make CMakeFiles/cmTC_34c77.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_34c77.dir/src.cxx.o
+/usr/bin/c++    -std=gnu++11 -Wno-conversion-null -DHAVE_BINARY_CONSTANTS   -o CMakeFiles/cmTC_34c77.dir/src.cxx.o -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_34c77
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34c77.dir/link.txt --verbose=1
+/usr/bin/c++   -std=gnu++11 -Wno-conversion-null -DHAVE_BINARY_CONSTANTS    -rdynamic CMakeFiles/cmTC_34c77.dir/src.cxx.o  -o cmTC_34c77 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { int x = 0b101011; }
+Performing C++ SOURCE FILE Test HAVE_CONSTEXPR succeeded with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9aa6c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9aa6c.dir/build.make CMakeFiles/cmTC_9aa6c.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9aa6c.dir/src.cxx.o
+/usr/bin/c++    -std=gnu++11 -Wno-conversion-null -DHAVE_CONSTEXPR   -o CMakeFiles/cmTC_9aa6c.dir/src.cxx.o -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9aa6c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9aa6c.dir/link.txt --verbose=1
+/usr/bin/c++   -std=gnu++11 -Wno-conversion-null -DHAVE_CONSTEXPR    -rdynamic CMakeFiles/cmTC_9aa6c.dir/src.cxx.o  -o cmTC_9aa6c 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { constexpr int x = 0; }
+Performing C++ SOURCE FILE Test HAVE_ALIGNAS succeeded with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c8313/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c8313.dir/build.make CMakeFiles/cmTC_c8313.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c8313.dir/src.cxx.o
+/usr/bin/c++    -std=gnu++11 -Wno-conversion-null -DHAVE_ALIGNAS   -o CMakeFiles/cmTC_c8313.dir/src.cxx.o -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c8313
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8313.dir/link.txt --verbose=1
+/usr/bin/c++   -std=gnu++11 -Wno-conversion-null -DHAVE_ALIGNAS    -rdynamic CMakeFiles/cmTC_c8313.dir/src.cxx.o  -o cmTC_c8313 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+struct alignas(32) Foo { char x; }; int main() { }
+Performing C++ SOURCE FILE Test HAVE_ALIGNOF succeeded with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_db4e0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_db4e0.dir/build.make CMakeFiles/cmTC_db4e0.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_db4e0.dir/src.cxx.o
+/usr/bin/c++    -std=gnu++11 -Wno-conversion-null -DHAVE_ALIGNOF   -o CMakeFiles/cmTC_db4e0.dir/src.cxx.o -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_db4e0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db4e0.dir/link.txt --verbose=1
+/usr/bin/c++   -std=gnu++11 -Wno-conversion-null -DHAVE_ALIGNOF    -rdynamic CMakeFiles/cmTC_db4e0.dir/src.cxx.o  -o cmTC_db4e0 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { int x = alignof(double); }
+Performing C++ SOURCE FILE Test HAVE_NONPOD_IN_UNIONS succeeded with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dac93/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dac93.dir/build.make CMakeFiles/cmTC_dac93.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dac93.dir/src.cxx.o
+/usr/bin/c++    -std=gnu++11 -Wno-conversion-null -DHAVE_NONPOD_IN_UNIONS   -o CMakeFiles/cmTC_dac93.dir/src.cxx.o -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_dac93
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dac93.dir/link.txt --verbose=1
+/usr/bin/c++   -std=gnu++11 -Wno-conversion-null -DHAVE_NONPOD_IN_UNIONS    -rdynamic CMakeFiles/cmTC_dac93.dir/src.cxx.o  -o cmTC_dac93 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+class Bar { public: Bar() { x = 0; } float x; };
+struct Foo { union { int x[10]; Bar b; }; Foo() : b() { } };
+int main() { Foo f; }
+
+Performing C++ SOURCE FILE Test HAVE_MMAP succeeded with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3d5fd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3d5fd.dir/build.make CMakeFiles/cmTC_3d5fd.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3d5fd.dir/src.cxx.o
+/usr/bin/c++    -std=gnu++11 -Wno-conversion-null -DHAVE_MMAP   -o CMakeFiles/cmTC_3d5fd.dir/src.cxx.o -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3d5fd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d5fd.dir/link.txt --verbose=1
+/usr/bin/c++   -std=gnu++11 -Wno-conversion-null -DHAVE_MMAP    -rdynamic CMakeFiles/cmTC_3d5fd.dir/src.cxx.o  -o cmTC_3d5fd 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <fcntl.h>
+#include <sys/mman.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+int main() {
+   int fd = open("foo", O_RDONLY);
+   struct stat s;
+   fstat(fd, &s);
+   size_t len = s.st_size;
+   void *ptr = mmap(0, len, PROT_READ, MAP_FILE | MAP_SHARED, fd, 0);
+   munmap(ptr, len);   
+}
+
+Performing C++ SOURCE FILE Test HAVE_ATTRIBUTE_NOINLINE succeeded with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4a11b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4a11b.dir/build.make CMakeFiles/cmTC_4a11b.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4a11b.dir/src.cxx.o
+/usr/bin/c++    -std=gnu++11 -Wno-conversion-null -DHAVE_ATTRIBUTE_NOINLINE   -o CMakeFiles/cmTC_4a11b.dir/src.cxx.o -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4a11b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a11b.dir/link.txt --verbose=1
+/usr/bin/c++   -std=gnu++11 -Wno-conversion-null -DHAVE_ATTRIBUTE_NOINLINE    -rdynamic CMakeFiles/cmTC_4a11b.dir/src.cxx.o  -o cmTC_4a11b 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+__attribute__((noinline)) void foo() { }
+int main() { }
+Performing C++ SOURCE FILE Test HAVE_POSIX_MEMALIGN succeeded with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_60874/fast"
+/usr/bin/make -f CMakeFiles/cmTC_60874.dir/build.make CMakeFiles/cmTC_60874.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_60874.dir/src.cxx.o
+/usr/bin/c++    -std=gnu++11 -Wno-conversion-null -DHAVE_POSIX_MEMALIGN   -o CMakeFiles/cmTC_60874.dir/src.cxx.o -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_60874
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60874.dir/link.txt --verbose=1
+/usr/bin/c++   -std=gnu++11 -Wno-conversion-null -DHAVE_POSIX_MEMALIGN    -rdynamic CMakeFiles/cmTC_60874.dir/src.cxx.o  -o cmTC_60874 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <stdlib.h>
+int main() {
+  void *ptr;
+  posix_memalign(&ptr, 32, 1024);
+} 
+Performing C++ SOURCE FILE Test HAVE_MEMALIGN succeeded with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_87121/fast"
+/usr/bin/make -f CMakeFiles/cmTC_87121.dir/build.make CMakeFiles/cmTC_87121.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_87121.dir/src.cxx.o
+/usr/bin/c++    -std=gnu++11 -Wno-conversion-null -DHAVE_MEMALIGN   -o CMakeFiles/cmTC_87121.dir/src.cxx.o -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_87121
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87121.dir/link.txt --verbose=1
+/usr/bin/c++   -std=gnu++11 -Wno-conversion-null -DHAVE_MEMALIGN    -rdynamic CMakeFiles/cmTC_87121.dir/src.cxx.o  -o cmTC_87121 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <malloc.h>
+int main() {
+    void *ptr = memalign(32, 1024);
+} 
+Performing C++ SOURCE FILE Test HAVE_THREAD_LOCAL succeeded with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_de015/fast"
+/usr/bin/make -f CMakeFiles/cmTC_de015.dir/build.make CMakeFiles/cmTC_de015.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_de015.dir/src.cxx.o
+/usr/bin/c++    -std=gnu++11 -Wno-conversion-null -DHAVE_THREAD_LOCAL   -o CMakeFiles/cmTC_de015.dir/src.cxx.o -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_de015
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de015.dir/link.txt --verbose=1
+/usr/bin/c++   -std=gnu++11 -Wno-conversion-null -DHAVE_THREAD_LOCAL    -rdynamic CMakeFiles/cmTC_de015.dir/src.cxx.o  -o cmTC_de015 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#ifdef __CYGWIN__
+// Hack to work around https://gcc.gnu.org/bugzilla/show_bug.cgi?id=64697
+#error "No thread_local on cygwin"
+#endif  // __CYGWIN__
+thread_local int x; int main() { }
+
+Performing C++ SOURCE FILE Test HAVE___THREAD succeeded with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_81525/fast"
+/usr/bin/make -f CMakeFiles/cmTC_81525.dir/build.make CMakeFiles/cmTC_81525.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_81525.dir/src.cxx.o
+/usr/bin/c++    -std=gnu++11 -Wno-conversion-null -DHAVE___THREAD   -o CMakeFiles/cmTC_81525.dir/src.cxx.o -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_81525
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81525.dir/link.txt --verbose=1
+/usr/bin/c++   -std=gnu++11 -Wno-conversion-null -DHAVE___THREAD    -rdynamic CMakeFiles/cmTC_81525.dir/src.cxx.o  -o cmTC_81525 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+__thread int x; int main() { }
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7b788/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7b788.dir/build.make CMakeFiles/cmTC_7b788.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7b788.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7b788.dir/CheckIncludeFile.c.o   -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7b788
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b788.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7b788.dir/CheckIncludeFile.c.o  -o cmTC_7b788 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5b44a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5b44a.dir/build.make CMakeFiles/cmTC_5b44a.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5b44a.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5b44a.dir/CheckIncludeFile.c.o   -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5b44a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b44a.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5b44a.dir/CheckIncludeFile.c.o  -o cmTC_5b44a 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_44487/fast"
+/usr/bin/make -f CMakeFiles/cmTC_44487.dir/build.make CMakeFiles/cmTC_44487.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_44487.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_44487.dir/CheckIncludeFile.c.o   -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_44487
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44487.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_44487.dir/CheckIncludeFile.c.o  -o cmTC_44487 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Determining size of off64_t passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c4df9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c4df9.dir/build.make CMakeFiles/cmTC_c4df9.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c4df9.dir/OFF64_T.c.o
+/usr/bin/cc -DHAVE_STDDEF_H -DHAVE_STDINT_H -DHAVE_SYS_TYPES_H -D_LARGEFILE64_SOURCE=1   -o CMakeFiles/cmTC_c4df9.dir/OFF64_T.c.o   -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CheckTypeSize/OFF64_T.c
+Linking C executable cmTC_c4df9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4df9.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c4df9.dir/OFF64_T.c.o  -o cmTC_c4df9 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d2c4f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d2c4f.dir/build.make CMakeFiles/cmTC_d2c4f.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d2c4f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fseeko   -o CMakeFiles/cmTC_d2c4f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d2c4f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2c4f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fseeko    -rdynamic CMakeFiles/cmTC_d2c4f.dir/CheckFunctionExists.c.o  -o cmTC_d2c4f 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ba577/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ba577.dir/build.make CMakeFiles/cmTC_ba577.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ba577.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ba577.dir/CheckIncludeFile.c.o   -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ba577
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba577.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ba577.dir/CheckIncludeFile.c.o  -o cmTC_ba577 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test HAVE_GCC_INLINE_ASM_AVX succeeded with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8a04f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8a04f.dir/build.make CMakeFiles/cmTC_8a04f.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8a04f.dir/src.cxx.o
+/usr/bin/c++    -std=gnu++11 -Wno-conversion-null -Wno-unused-result -Wno-deprecated -DHAVE_GCC_INLINE_ASM_AVX   -o CMakeFiles/cmTC_8a04f.dir/src.cxx.o -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8a04f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a04f.dir/link.txt --verbose=1
+/usr/bin/c++   -std=gnu++11 -Wno-conversion-null -Wno-unused-result -Wno-deprecated -DHAVE_GCC_INLINE_ASM_AVX    -rdynamic CMakeFiles/cmTC_8a04f.dir/src.cxx.o  -o cmTC_8a04f 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+	int main()
+	{
+	 #if defined(__GNUC__) && defined(__SSE2__)
+		 int n   = 0;
+		 int eax = 0;
+		 int edx = 0;
+		 __asm__(
+			 "xgetbv     ;"
+			 "vzeroupper  "
+			 : "=a"(eax), "=d"(edx) : "c"(n) : );
+	 #else
+		 #error No GCC style inline asm supported for AVX instructions
+	 #endif
+	}
+	
+Performing C++ SOURCE FILE Test HAVE_SYSCONF_NPROCESSORS_ONLN succeeded with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9608e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9608e.dir/build.make CMakeFiles/cmTC_9608e.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9608e.dir/src.cxx.o
+/usr/bin/c++    -std=gnu++11 -Wno-conversion-null -Wno-unused-result -Wno-deprecated -DHAVE_SYSCONF_NPROCESSORS_ONLN   -o CMakeFiles/cmTC_9608e.dir/src.cxx.o -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9608e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9608e.dir/link.txt --verbose=1
+/usr/bin/c++   -std=gnu++11 -Wno-conversion-null -Wno-unused-result -Wno-deprecated -DHAVE_SYSCONF_NPROCESSORS_ONLN    -rdynamic CMakeFiles/cmTC_9608e.dir/src.cxx.o  -o cmTC_9608e 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include <unistd.h>
+    int main()
+    {
+        sysconf(_SC_NPROCESSORS_ONLN);
+    }
+    
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3f4d7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3f4d7.dir/build.make CMakeFiles/cmTC_3f4d7.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3f4d7.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3f4d7.dir/CheckIncludeFile.c.o   -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3f4d7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f4d7.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3f4d7.dir/CheckIncludeFile.c.o  -o cmTC_3f4d7 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file execinfo.h exists passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_49280/fast"
+/usr/bin/make -f CMakeFiles/cmTC_49280.dir/build.make CMakeFiles/cmTC_49280.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_49280.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_49280.dir/CheckIncludeFile.c.o   -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_49280
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49280.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_49280.dir/CheckIncludeFile.c.o  -o cmTC_49280 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file glob.h exists passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_01703/fast"
+/usr/bin/make -f CMakeFiles/cmTC_01703.dir/build.make CMakeFiles/cmTC_01703.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_01703.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_01703.dir/CheckIncludeFile.c.o   -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_01703
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01703.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_01703.dir/CheckIncludeFile.c.o  -o cmTC_01703 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9f281/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9f281.dir/build.make CMakeFiles/cmTC_9f281.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9f281.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_9f281.dir/CheckIncludeFile.c.o   -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9f281
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f281.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_9f281.dir/CheckIncludeFile.c.o  -o cmTC_9f281 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pwd.h exists passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_14b2f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_14b2f.dir/build.make CMakeFiles/cmTC_14b2f.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_14b2f.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_14b2f.dir/CheckIncludeFile.c.o   -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_14b2f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14b2f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_14b2f.dir/CheckIncludeFile.c.o  -o cmTC_14b2f 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8f6c5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8f6c5.dir/build.make CMakeFiles/cmTC_8f6c5.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8f6c5.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8f6c5.dir/CheckIncludeFile.c.o   -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8f6c5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f6c5.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8f6c5.dir/CheckIncludeFile.c.o  -o cmTC_8f6c5 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8b303/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8b303.dir/build.make CMakeFiles/cmTC_8b303.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8b303.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8b303.dir/CheckIncludeFile.c.o   -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8b303
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b303.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8b303.dir/CheckIncludeFile.c.o  -o cmTC_8b303 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_45169/fast"
+/usr/bin/make -f CMakeFiles/cmTC_45169.dir/build.make CMakeFiles/cmTC_45169.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_45169.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_45169.dir/CheckIncludeFile.c.o   -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_45169
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45169.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_45169.dir/CheckIncludeFile.c.o  -o cmTC_45169 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_007ff/fast"
+/usr/bin/make -f CMakeFiles/cmTC_007ff.dir/build.make CMakeFiles/cmTC_007ff.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_007ff.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_007ff.dir/CheckIncludeFile.c.o   -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_007ff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_007ff.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_007ff.dir/CheckIncludeFile.c.o  -o cmTC_007ff 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/syscall.h exists passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0fd13/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0fd13.dir/build.make CMakeFiles/cmTC_0fd13.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0fd13.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0fd13.dir/CheckIncludeFile.c.o   -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0fd13
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0fd13.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_0fd13.dir/CheckIncludeFile.c.o  -o cmTC_0fd13 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0f6d3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0f6d3.dir/build.make CMakeFiles/cmTC_0f6d3.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0f6d3.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0f6d3.dir/CheckIncludeFile.c.o   -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0f6d3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f6d3.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_0f6d3.dir/CheckIncludeFile.c.o  -o cmTC_0f6d3 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/utsname.h exists passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7fbdc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7fbdc.dir/build.make CMakeFiles/cmTC_7fbdc.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7fbdc.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7fbdc.dir/CheckIncludeFile.c.o   -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7fbdc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7fbdc.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7fbdc.dir/CheckIncludeFile.c.o  -o cmTC_7fbdc 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file syscall.h exists passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2a888/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2a888.dir/build.make CMakeFiles/cmTC_2a888.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2a888.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2a888.dir/CheckIncludeFile.c.o   -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2a888
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a888.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_2a888.dir/CheckIncludeFile.c.o  -o cmTC_2a888 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file syslog.h exists passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1bfe4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1bfe4.dir/build.make CMakeFiles/cmTC_1bfe4.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1bfe4.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1bfe4.dir/CheckIncludeFile.c.o   -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1bfe4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1bfe4.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1bfe4.dir/CheckIncludeFile.c.o  -o cmTC_1bfe4 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file ucontext.h exists passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_94afc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_94afc.dir/build.make CMakeFiles/cmTC_94afc.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_94afc.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_94afc.dir/CheckIncludeFile.c.o   -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_94afc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94afc.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_94afc.dir/CheckIncludeFile.c.o  -o cmTC_94afc 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_77ea2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_77ea2.dir/build.make CMakeFiles/cmTC_77ea2.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_77ea2.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_77ea2.dir/CheckIncludeFile.c.o   -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_77ea2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77ea2.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_77ea2.dir/CheckIncludeFile.c.o  -o cmTC_77ea2 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unwind.h exists passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ef6a0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ef6a0.dir/build.make CMakeFiles/cmTC_ef6a0.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ef6a0.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ef6a0.dir/CheckIncludeFile.c.o   -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ef6a0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef6a0.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ef6a0.dir/CheckIncludeFile.c.o  -o cmTC_ef6a0 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file ext/hash_map exists passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_42dfe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_42dfe.dir/build.make CMakeFiles/cmTC_42dfe.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_42dfe.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -std=gnu++11 -Wno-conversion-null    -o CMakeFiles/cmTC_42dfe.dir/CheckIncludeFile.cxx.o -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+In file included from /usr/include/c++/7/ext/hash_map:60:0,
+                 from /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:
+/usr/include/c++/7/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated. [-Wcpp]
+ #warning \
+  ^~~~~~~
+Linking CXX executable cmTC_42dfe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42dfe.dir/link.txt --verbose=1
+/usr/bin/c++   -std=gnu++11 -Wno-conversion-null     -rdynamic CMakeFiles/cmTC_42dfe.dir/CheckIncludeFile.cxx.o  -o cmTC_42dfe 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file ext/hash_set exists passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d187a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d187a.dir/build.make CMakeFiles/cmTC_d187a.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d187a.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -std=gnu++11 -Wno-conversion-null    -o CMakeFiles/cmTC_d187a.dir/CheckIncludeFile.cxx.o -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+In file included from /usr/include/c++/7/ext/hash_set:60:0,
+                 from /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:
+/usr/include/c++/7/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated. [-Wcpp]
+ #warning \
+  ^~~~~~~
+Linking CXX executable cmTC_d187a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d187a.dir/link.txt --verbose=1
+/usr/bin/c++   -std=gnu++11 -Wno-conversion-null     -rdynamic CMakeFiles/cmTC_d187a.dir/CheckIncludeFile.cxx.o  -o cmTC_d187a 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file ext/slist exists passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3bf67/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3bf67.dir/build.make CMakeFiles/cmTC_3bf67.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3bf67.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -std=gnu++11 -Wno-conversion-null    -o CMakeFiles/cmTC_3bf67.dir/CheckIncludeFile.cxx.o -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_3bf67
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3bf67.dir/link.txt --verbose=1
+/usr/bin/c++   -std=gnu++11 -Wno-conversion-null     -rdynamic CMakeFiles/cmTC_3bf67.dir/CheckIncludeFile.cxx.o  -o cmTC_3bf67 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file tr1/unordered_map exists passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c0500/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c0500.dir/build.make CMakeFiles/cmTC_c0500.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c0500.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -std=gnu++11 -Wno-conversion-null    -o CMakeFiles/cmTC_c0500.dir/CheckIncludeFile.cxx.o -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_c0500
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0500.dir/link.txt --verbose=1
+/usr/bin/c++   -std=gnu++11 -Wno-conversion-null     -rdynamic CMakeFiles/cmTC_c0500.dir/CheckIncludeFile.cxx.o  -o cmTC_c0500 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file tr1/unordered_set exists passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b60b7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b60b7.dir/build.make CMakeFiles/cmTC_b60b7.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b60b7.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -std=gnu++11 -Wno-conversion-null    -o CMakeFiles/cmTC_b60b7.dir/CheckIncludeFile.cxx.o -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_b60b7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b60b7.dir/link.txt --verbose=1
+/usr/bin/c++   -std=gnu++11 -Wno-conversion-null     -rdynamic CMakeFiles/cmTC_b60b7.dir/CheckIncludeFile.cxx.o  -o cmTC_b60b7 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unordered_map exists passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_67138/fast"
+/usr/bin/make -f CMakeFiles/cmTC_67138.dir/build.make CMakeFiles/cmTC_67138.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_67138.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -std=gnu++11 -Wno-conversion-null    -o CMakeFiles/cmTC_67138.dir/CheckIncludeFile.cxx.o -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_67138
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67138.dir/link.txt --verbose=1
+/usr/bin/c++   -std=gnu++11 -Wno-conversion-null     -rdynamic CMakeFiles/cmTC_67138.dir/CheckIncludeFile.cxx.o  -o cmTC_67138 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unordered_set exists passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_011a0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_011a0.dir/build.make CMakeFiles/cmTC_011a0.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_011a0.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -std=gnu++11 -Wno-conversion-null    -o CMakeFiles/cmTC_011a0.dir/CheckIncludeFile.cxx.o -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_011a0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_011a0.dir/link.txt --verbose=1
+/usr/bin/c++   -std=gnu++11 -Wno-conversion-null     -rdynamic CMakeFiles/cmTC_011a0.dir/CheckIncludeFile.cxx.o  -o cmTC_011a0 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Determining size of u_int16_t passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_40157/fast"
+/usr/bin/make -f CMakeFiles/cmTC_40157.dir/build.make CMakeFiles/cmTC_40157.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_40157.dir/HAVE_U_INT16_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_40157.dir/HAVE_U_INT16_T.c.o   -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CheckTypeSize/HAVE_U_INT16_T.c
+Linking C executable cmTC_40157
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40157.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_40157.dir/HAVE_U_INT16_T.c.o  -o cmTC_40157 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_481f8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_481f8.dir/build.make CMakeFiles/cmTC_481f8.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_481f8.dir/HAVE_UINT16_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_481f8.dir/HAVE_UINT16_T.c.o   -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CheckTypeSize/HAVE_UINT16_T.c
+Linking C executable cmTC_481f8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_481f8.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_481f8.dir/HAVE_UINT16_T.c.o  -o cmTC_481f8 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fcntl exists passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f83ae/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f83ae.dir/build.make CMakeFiles/cmTC_f83ae.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f83ae.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fcntl   -o CMakeFiles/cmTC_f83ae.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f83ae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f83ae.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fcntl    -rdynamic CMakeFiles/cmTC_f83ae.dir/CheckFunctionExists.c.o  -o cmTC_f83ae 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pread exists passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_182f1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_182f1.dir/build.make CMakeFiles/cmTC_182f1.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_182f1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pread   -o CMakeFiles/cmTC_182f1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_182f1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_182f1.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pread    -rdynamic CMakeFiles/cmTC_182f1.dir/CheckFunctionExists.c.o  -o cmTC_182f1 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pwrite exists passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_43b56/fast"
+/usr/bin/make -f CMakeFiles/cmTC_43b56.dir/build.make CMakeFiles/cmTC_43b56.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_43b56.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pwrite   -o CMakeFiles/cmTC_43b56.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_43b56
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43b56.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pwrite    -rdynamic CMakeFiles/cmTC_43b56.dir/CheckFunctionExists.c.o  -o cmTC_43b56 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sigaction exists passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1e8db/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1e8db.dir/build.make CMakeFiles/cmTC_1e8db.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1e8db.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sigaction   -o CMakeFiles/cmTC_1e8db.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1e8db
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e8db.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sigaction    -rdynamic CMakeFiles/cmTC_1e8db.dir/CheckFunctionExists.c.o  -o cmTC_1e8db 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sigaltstack exists passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3beee/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3beee.dir/build.make CMakeFiles/cmTC_3beee.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3beee.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sigaltstack   -o CMakeFiles/cmTC_3beee.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3beee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3beee.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sigaltstack    -rdynamic CMakeFiles/cmTC_3beee.dir/CheckFunctionExists.c.o  -o cmTC_3beee 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test HAVE_NO_DEPRECATED succeeded with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_10017/fast"
+/usr/bin/make -f CMakeFiles/cmTC_10017.dir/build.make CMakeFiles/cmTC_10017.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_10017.dir/src.cxx.o
+/usr/bin/c++    -std=gnu++11 -Wno-conversion-null -DHAVE_NO_DEPRECATED   -Wno-deprecated -o CMakeFiles/cmTC_10017.dir/src.cxx.o -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_10017
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10017.dir/link.txt --verbose=1
+/usr/bin/c++   -std=gnu++11 -Wno-conversion-null -DHAVE_NO_DEPRECATED    -rdynamic CMakeFiles/cmTC_10017.dir/src.cxx.o  -o cmTC_10017 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_NO_UNNAMED_TYPE_TEMPLATE_ARGS succeeded with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_32155/fast"
+/usr/bin/make -f CMakeFiles/cmTC_32155.dir/build.make CMakeFiles/cmTC_32155.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_32155.dir/src.cxx.o
+/usr/bin/c++    -std=gnu++11 -Wno-conversion-null -DHAVE_NO_UNNAMED_TYPE_TEMPLATE_ARGS   -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_32155.dir/src.cxx.o -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_32155
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32155.dir/link.txt --verbose=1
+/usr/bin/c++   -std=gnu++11 -Wno-conversion-null -DHAVE_NO_UNNAMED_TYPE_TEMPLATE_ARGS    -rdynamic CMakeFiles/cmTC_32155.dir/src.cxx.o  -o cmTC_32155 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Determining if the snprintf exist passed with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5b50e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5b50e.dir/build.make CMakeFiles/cmTC_5b50e.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5b50e.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5b50e.dir/CheckSymbolExists.c.o   -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5b50e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b50e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5b50e.dir/CheckSymbolExists.c.o  -o cmTC_5b50e 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+File /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef snprintf
+  return ((int*)(&snprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE___ATTRIBUTE__ succeeded with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5640a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5640a.dir/build.make CMakeFiles/cmTC_5640a.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5640a.dir/src.c.o
+/usr/bin/cc   -DHAVE___ATTRIBUTE__   -o CMakeFiles/cmTC_5640a.dir/src.c.o   -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5640a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5640a.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE___ATTRIBUTE__    -rdynamic CMakeFiles/cmTC_5640a.dir/src.c.o  -o cmTC_5640a 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <stdlib.h>
+static void foo(void) __attribute__ ((unused));
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test HAVE___ATTRIBUTE__VISIBILITY_DEFAULT succeeded with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fa6a8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fa6a8.dir/build.make CMakeFiles/cmTC_fa6a8.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fa6a8.dir/src.c.o
+/usr/bin/cc   -DHAVE___ATTRIBUTE__VISIBILITY_DEFAULT   -o CMakeFiles/cmTC_fa6a8.dir/src.c.o   -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.c
+/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.c:3:1: warning: ‘visibility’ attribute ignored [-Wattributes]
+ static void foo(void) __attribute__ ((visibility("default")));
+ ^~~~~~
+Linking C executable cmTC_fa6a8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa6a8.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE___ATTRIBUTE__VISIBILITY_DEFAULT    -rdynamic CMakeFiles/cmTC_fa6a8.dir/src.c.o  -o cmTC_fa6a8 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <stdlib.h>
+static void foo(void) __attribute__ ((visibility("default")));
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test HAVE___ATTRIBUTE__VISIBILITY_HIDDEN succeeded with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4eb26/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4eb26.dir/build.make CMakeFiles/cmTC_4eb26.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4eb26.dir/src.c.o
+/usr/bin/cc   -DHAVE___ATTRIBUTE__VISIBILITY_HIDDEN   -o CMakeFiles/cmTC_4eb26.dir/src.c.o   -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.c
+/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.c:3:1: warning: ‘visibility’ attribute ignored [-Wattributes]
+ static void foo(void) __attribute__ ((visibility("hidden")));
+ ^~~~~~
+Linking C executable cmTC_4eb26
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4eb26.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE___ATTRIBUTE__VISIBILITY_HIDDEN    -rdynamic CMakeFiles/cmTC_4eb26.dir/src.c.o  -o cmTC_4eb26 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <stdlib.h>
+static void foo(void) __attribute__ ((visibility("hidden")));
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test HAVE___BUILTIN_EXPECT succeeded with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a1b53/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a1b53.dir/build.make CMakeFiles/cmTC_a1b53.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a1b53.dir/src.c.o
+/usr/bin/cc   -DHAVE___BUILTIN_EXPECT   -o CMakeFiles/cmTC_a1b53.dir/src.c.o   -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a1b53
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1b53.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE___BUILTIN_EXPECT    -rdynamic CMakeFiles/cmTC_a1b53.dir/src.c.o  -o cmTC_a1b53 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+int main(void) { if (__builtin_expect(0, 0)) return 1; return 0; }
+
+Performing C SOURCE FILE Test HAVE___SYNC_VAL_COMPARE_AND_SWAP succeeded with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1c372/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1c372.dir/build.make CMakeFiles/cmTC_1c372.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1c372.dir/src.c.o
+/usr/bin/cc   -DHAVE___SYNC_VAL_COMPARE_AND_SWAP   -o CMakeFiles/cmTC_1c372.dir/src.c.o   -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1c372
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c372.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE___SYNC_VAL_COMPARE_AND_SWAP    -rdynamic CMakeFiles/cmTC_1c372.dir/src.c.o  -o cmTC_1c372 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+int main(void)
+{
+  int a; if (__sync_val_compare_and_swap(&a, 0, 1)) return 1; return 0;
+}
+
+Performing C++ SOURCE FILE Test STL_STD_NAMESPACE succeeded with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_19268/fast"
+/usr/bin/make -f CMakeFiles/cmTC_19268.dir/build.make CMakeFiles/cmTC_19268.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_19268.dir/src.cxx.o
+/usr/bin/c++    -std=gnu++11 -Wno-conversion-null -DSTL_STD_NAMESPACE   -o CMakeFiles/cmTC_19268.dir/src.cxx.o -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_19268
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19268.dir/link.txt --verbose=1
+/usr/bin/c++   -std=gnu++11 -Wno-conversion-null -DSTL_STD_NAMESPACE    -rdynamic CMakeFiles/cmTC_19268.dir/src.cxx.o  -o cmTC_19268 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <vector>
+std::vector<int> t; int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_USING_OPERATOR succeeded with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b30df/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b30df.dir/build.make CMakeFiles/cmTC_b30df.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b30df.dir/src.cxx.o
+/usr/bin/c++    -std=gnu++11 -Wno-conversion-null -DHAVE_USING_OPERATOR   -o CMakeFiles/cmTC_b30df.dir/src.cxx.o -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b30df
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b30df.dir/link.txt --verbose=1
+/usr/bin/c++   -std=gnu++11 -Wno-conversion-null -DHAVE_USING_OPERATOR    -rdynamic CMakeFiles/cmTC_b30df.dir/src.cxx.o  -o cmTC_b30df 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <iostream>
+std::ostream& operator<<(std::ostream&, struct s);
+using ::operator<<;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_NAMESPACES succeeded with the following output:
+Change Dir: /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1e910/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1e910.dir/build.make CMakeFiles/cmTC_1e910.dir/build
+make[1]: Entering directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1e910.dir/src.cxx.o
+/usr/bin/c++    -std=gnu++11 -Wno-conversion-null -DHAVE_NAMESPACES   -o CMakeFiles/cmTC_1e910.dir/src.cxx.o -c /mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1e910
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e910.dir/link.txt --verbose=1
+/usr/bin/c++   -std=gnu++11 -Wno-conversion-null -DHAVE_NAMESPACES    -rdynamic CMakeFiles/cmTC_1e910.dir/src.cxx.o  -o cmTC_1e910 
+make[1]: Leaving directory '/mnt/f/research/pbrt/pbrt-v3-tsd-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+namespace Outer { namespace Inner { int i = 0; }}
+using namespace Outer::Inner;;
+int main() { return i; }
+
